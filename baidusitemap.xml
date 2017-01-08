@@ -4,16 +4,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/01/07/saas-metrics-definitions/</loc>
-    <lastmod>2017-01-08T18:35:09.451Z</lastmod>
+    <loc>http://saasnotes.com/saas-metrics-definitions.html</loc>
+    <lastmod>2017-01-08T20:32:05.670Z</lastmod>
     <data>
         <display>
         <title>用单位经济学解构 SaaS 业务指标</title>
         <pubTime>2017-01-07T12:35:41.740Z</pubTime>
         
-        <tag>SaaS</tag>
-         
-        <tag>Meterics</tag>
+        <tag>saas</tag>
          
          
            
@@ -23,16 +21,14 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/01/07/saas-meterics-in-different-stage/</loc>
-    <lastmod>2017-01-08T18:34:25.970Z</lastmod>
+    <loc>http://saasnotes.com/saas-meterics-in-different-stage.html</loc>
+    <lastmod>2017-01-08T20:31:34.534Z</lastmod>
     <data>
         <display>
-        <title>SaaS业务在不同阶段的关键指标</title>
+        <title>SaaS 业务在不同阶段的关键指标</title>
         <pubTime>2017-01-07T12:28:50.832Z</pubTime>
         
-        <tag>SaaS</tag>
-         
-        <tag>Meterics</tag>
+        <tag>metrics</tag>
          
          
            
@@ -42,34 +38,30 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/01/07/lean-operation/</loc>
-    <lastmod>2017-01-08T18:33:49.782Z</lastmod>
-    <data>
-        <display>
-        <title>精细化运营：是技术的追求，还是产品的不挽留？</title>
-        <pubTime>2017-01-07T12:23:54.571Z</pubTime>
-        
-        <tag>SaaS</tag>
-         
-        <tag>Operation</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/01/07/retention-is-king/</loc>
-    <lastmod>2017-01-08T18:33:16.603Z</lastmod>
+    <loc>http://saasnotes.com/retention-is-king.html</loc>
+    <lastmod>2017-01-08T20:31:10.304Z</lastmod>
     <data>
         <display>
         <title>5组数据，2个维度，告诉你为什么留存为王</title>
         <pubTime>2017-01-07T12:14:30.079Z</pubTime>
         
-        <tag>SaaS</tag>
+        <tag>analytics</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://saasnotes.com/lean-operation.html</loc>
+    <lastmod>2017-01-08T20:30:21.053Z</lastmod>
+    <data>
+        <display>
+        <title>精细化运营：是技术的追求，还是产品的不挽留？</title>
+        <pubTime>2017-01-07T12:23:54.571Z</pubTime>
+        
         <tag>Operation</tag>
          
          
@@ -80,7 +72,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/01/07/next-shift-of-saas/</loc>
+    <loc>http://saasnotes.com/next-shift-of-saas.html</loc>
     <lastmod>2017-01-08T18:32:16.881Z</lastmod>
     <data>
         <display>
@@ -97,7 +89,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/01/07/how-saas-go-profits/</loc>
+    <loc>http://saasnotes.com/how-saas-go-profits.html</loc>
     <lastmod>2017-01-08T18:31:34.144Z</lastmod>
     <data>
         <display>
