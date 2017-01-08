@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="SaaS," />
+  <meta name="keywords" content="SaaS,Meterics," />
 
 
 
@@ -86,31 +86,54 @@
 
 
 
-<meta name="description" content="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？跌到谷底的挣扎与高风险高收益的快感。
+<meta name="description" content="SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。
 
-SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即需即用，需要多少用多少的软件服务，目前已经是现代商业软件中一种常见的交付模式。
-2014年底至今，国内资本对 SaaS 和企业服务领域的投资，可以说是“趋之若鹜”。2015年，国内共发生了111起对 SaaS 行业的投融资事件，2016年上半年，即">
+计算 SaaS 业务的 LTV 和 CAC**
+这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。
+
+CAC - 获客成本（Cost to Acquire a Customer）**
+我们对 CAC 的定义如下：
+
+在业务早期，雇佣">
 <meta property="og:type" content="article">
-<meta property="og:title" content="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？">
-<meta property="og:url" content="http://yoursite.com/2017/01/06/how-saas-go-profits/index.html">
+<meta property="og:title" content="用单位经济学解构 SaaS 业务指标">
+<meta property="og:url" content="http://yoursite.com/2017/01/07/saas-metrics-definitions/index.html">
 <meta property="og:site_name" content="SaaS Notes">
-<meta property="og:description" content="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？跌到谷底的挣扎与高风险高收益的快感。
+<meta property="og:description" content="SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。
 
-SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即需即用，需要多少用多少的软件服务，目前已经是现代商业软件中一种常见的交付模式。
-2014年底至今，国内资本对 SaaS 和企业服务领域的投资，可以说是“趋之若鹜”。2015年，国内共发生了111起对 SaaS 行业的投融资事件，2016年上半年，即">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb28.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/11/image_thumb11.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb29.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb35.png">
+计算 SaaS 业务的 LTV 和 CAC**
+这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。
+
+CAC - 获客成本（Cost to Acquire a Customer）**
+我们对 CAC 的定义如下：
+
+在业务早期，雇佣">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb74_thumb1.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb69_thumb1.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb66_thumb1.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image9.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image_thumb8.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c53c2ced8.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c5673aa0a.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb73_thumb1.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb72_thumb1.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb76_thumb1.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb33.png">
+<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb34.png">
 <meta property="og:image" content="https://dn-shimo-image.qbox.me/rwXLSJdJbasEuWqH/newwenmo.png!thumbnail">
-<meta property="og:updated_time" content="2017-01-07T12:48:23.474Z">
+<meta property="og:updated_time" content="2017-01-08T18:35:09.451Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？">
-<meta name="twitter:description" content="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？跌到谷底的挣扎与高风险高收益的快感。
+<meta name="twitter:title" content="用单位经济学解构 SaaS 业务指标">
+<meta name="twitter:description" content="SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。
 
-SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即需即用，需要多少用多少的软件服务，目前已经是现代商业软件中一种常见的交付模式。
-2014年底至今，国内资本对 SaaS 和企业服务领域的投资，可以说是“趋之若鹜”。2015年，国内共发生了111起对 SaaS 行业的投融资事件，2016年上半年，即">
-<meta name="twitter:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb28.png">
+计算 SaaS 业务的 LTV 和 CAC**
+这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。
+
+CAC - 获客成本（Cost to Acquire a Customer）**
+我们对 CAC 的定义如下：
+
+在业务早期，雇佣">
+<meta name="twitter:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb74_thumb1.png">
 
 
 
@@ -138,13 +161,13 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/01/06/how-saas-go-profits/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/01/07/saas-metrics-definitions/"/>
 
 
 
 
 
-  <title> 趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？ | SaaS Notes </title>
+  <title> 用单位经济学解构 SaaS 业务指标 | SaaS Notes </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -277,7 +300,7 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/06/how-saas-go-profits/">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/07/saas-metrics-definitions/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Ink">
@@ -301,7 +324,7 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
             
             
               
-                趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？
+                用单位经济学解构 SaaS 业务指标
               
             
           </h1>
@@ -316,8 +339,8 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-06T20:45:00+08:00">
-                2017-01-06
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T20:35:41+08:00">
+                2017-01-07
               </time>
             
 
@@ -336,7 +359,7 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
 
           
           
-             <span id="/2017/01/06/how-saas-go-profits/" class="leancloud_visitors" data-flag-title="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？">
+             <span id="/2017/01/07/saas-metrics-definitions/" class="leancloud_visitors" data-flag-title="用单位经济学解构 SaaS 业务指标">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -364,49 +387,70 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
 
       
         <blockquote>
-<p>趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？跌到谷底的挣扎与高风险高收益的快感。</p>
+<p>SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。</p>
 </blockquote>
-<p>SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即需即用，需要多少用多少的软件服务，目前已经是现代商业软件中一种常见的交付模式。</p>
-<p>2014年底至今，国内资本对 SaaS 和企业服务领域的投资，可以说是“趋之若鹜”。2015年，国内共发生了111起对 SaaS 行业的投融资事件，2016年上半年，即使是资本寒冬，也已有48起融资事件发生。</p>
-<p>SaaS 是很美的，而且前途光明，想一下，能让每个客户得到即需即用的软件服务，这是对资源多么大的节约。然而对 SaaS 创业者来说，却不得不经历一番“跌到谷底的挣扎”，资本对此却是乐见其成，甚至不惜动辄搭上数千万、数亿投资额，来陪 SaaS 创业者来玩这一场“破茧成蝶”的资本游戏。</p>
-<p><strong>那么，为什么？</strong></p>
-<p>在回答这个问题之前，先举一个真实的案例，这里会隐去公司名。这家公司是国内很知名的细分行业内的 SaaS 创业公司，在企业服务领域积累了多年。2014年之前，当时还是一个数十人的技术团队，在激烈的行业竞争下，虽然比较难，但也是活着。</p>
-<p>2014-2015年对这家公司可以说是非常关键的一年，因为资本入场了。这家公司本身所在的行业就有一定的壁垒，加之团队非常靠谱，所以资本是非常看好的，一年内就融资数论。于是2014年之后就做这么几件事：花钱，花钱研发，花钱抢市场。</p>
-<p>这个过程对经历其中的人感受是很明显的，首先是团队的扩张，突然之间就从几十人扩充到数百人；其次是用户规模的扩张，突然翻了好几十倍；再有一个，就是亏损，2014年之前没有融资，但不至于亏损，高速发展的2015年却经历了几千万的亏损。这样的连续亏损，必然会让亲历者有一种“跌倒谷底”的感觉。</p>
-<p>幸运的是，投资人很信任，并且连续跟投。现在这家公司依然很好，并且在准备上市。</p>
-<p>这个案例里的情节，应该是大多数被资本和市场所看好的 SaaS 公司可能会经历的。融资越多，扩张越快，早期的亏损越大，现金流越是吃紧。投资是世界上头脑比较聪明的人玩的风险高但回报更高的游戏，那么他们为什么要投早期亏损严重的 SaaS 公司？</p>
-<p><strong>“恶趣味”引力， SaaS 有什么不同？</strong></p>
-<p><strong>SaaS 是场持久战。</strong>SaaS 和其它经常性收入业务之所以特别是因为该服务的收入会持续很长一段时间（在客户生命周期内都会存在）。如果客户对服务很认可，他们就会继续使用很长时间，从客户那里获得的收入也能得到很可观的增长。但另一方面，如果客户对你的产品很不爽，他们就会很快流失，获取这些客户的投入就会白白损失。</p>
-<p>这就造成了跟传统软件业务从根本上的不同： SaaS 需要完成“两次”销售：</p>
-<p><em>1.SaaS 的第一次销售：获取客户</em></p>
-<p><em>2.SaaS 的第二次销售：留下客户（去最大化生命周期价值）</em></p>
-<p>这“两次”销售，也是 SaaS 的一种天然壁垒，能做到获取客户并留存客户的 SaaS 公司，就已经把一些还在路上的 SaaS 挡在门外。</p>
-<p><strong>早期亏损是常态，但始终会有爆发</strong></p>
-<p>SaaS 业务早期面临非常明显的业务亏损（并经常会出现现金流紧张的问题），这是因为前期在获取客户上需要重度投资，但收回投资成本并盈利则需要很长一段时间。<strong>业务增长越快，亏损情况就越明显。</strong>许多人因为对这个问题缺乏理解，结果在最应该加速发展的时候踩了刹车，结果不是出局就是错失发展的时机。</p>
-<p>在很多 SaaS 业务中，因为只能让客户按月付费也转化到现金流的问题。为了解释这个问题，这里提炼出来一个模型。假设我们获取客户的成本是6000美元，从客户那里收费按照500美元一个月，那么这个模型就应该是下图这样：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb28.png" alt="img"></p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/11/image_thumb11.png" alt="img"></p>
-<p>我们现在经历了只有一个客户情况下的现金流低谷，那么假设我们开始做的很好，并且同时获得了很多客户，又会发生什么？</p>
-<p><strong>如果我们增加获客速率，损益/现金流低谷会变得更深。</strong></p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb29.png" alt="img"></p>
-<p>但正如光明就在不远的地方， SaaS 增长曲线的尽头就是光明，最终，我们会从这些客户基数里得到足够的利润/现金并收回获取新客户的投资。这时候，企业就会有正的盈利/现金流——假设你不决定增加销售和营销支出。并且，若如预期，获取客户的速度越快，曲线变得积极时的营收增长也就越好。</p>
-<p><strong>Ron Gill ， SaaS 领域上市公司 NetSuite 的 CFO ：</strong></p>
+<p><strong>计算 SaaS 业务的 LTV 和 CAC<em>**</em></strong></p>
+<p>这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。</p>
+<hr>
+<p><strong>CAC - 获客成本（Cost to Acquire a Customer）<em>**</em></strong></p>
+<p>我们对 CAC 的定义如下：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb74_thumb1.png" alt="img"></p>
+<p>在业务早期，雇佣员工的成本是比较昂贵的，人力成本还不能被获客数量摊薄，所以 CAC 会比较高。这时候需要对销售和营销费用做一些简单的调整，比如部分岗位雇佣兼职员工或减少早期的营销费用，这样就能让 CAC 对未来规模有个很好的展望。</p>
+<hr>
+<p><strong>客户生命周期（Customer Lifetime）<em>**</em></strong></p>
+<p>如果你从100个客户群组开始，每月有一个固定的流失率，那么你会得到指数式衰减，如下图所示（图里的流失率是3%）：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb69_thumb1.png" alt="img"></p>
+<p>在数学上，可以简化为下面的公司来计算平均客户生命周期：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb66_thumb1.png" alt="img"></p>
+<p>如果客户流失率是每月几个百分点，或每年几个百分点，那么相应计算得到的客户生命周期的单位就是月或年，我们来举例说明：</p>
+<p><em>1.如果月流失率是3%，那么客户生命周期就是1/0.03，也就是33个月。</em></p>
+<p><em>2.如果每年的流失率是20%，那么客户生命周期就是1/0.2，即5年。</em></p>
+<hr>
+<p><strong>客户生命周期价值（Lifetime Value of Customer）<em>**</em></strong></p>
+<p>在所有客户有大致相同的 <strong>ARPA（帐户的平均每月经常性收入-Average monthly recurring Revenue per Account）</strong> 的情况下，以及在客户的整个生命周期中没有预期的扩大收入，可以用下面的公式计算：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image9.png" alt="img"></p>
+<p>也可以写成：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image_thumb8.png" alt="img"></p>
+<p>这里要强调的是，如果 ARPA 是按月的，流失率也应该是按月的。</p>
+<p>但是，如果你的客户群中 ARPA 差异很大的情况下，公司没有考虑高价值客户跟低价值客户之间的差异，所以准确点的公式是：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c53c2ced8.png" alt="img"></p>
+<p>为了得到更准确的 LTV ，还要把毛利率算进去，这时候的计算公司就变为：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c5673aa0a.png" alt="img"></p>
+<p>NetSuite 的 Ron Gill 说过这么一句话：</p>
 <blockquote>
-<p><em>如果计划不错，你可能是时候决定为了加快获取客户的步伐而追加投入了（包括追加获取潜在客户的支出，雇佣更多的销售代表，增加数据中心的负载，等等）。 SaaS 模式令很多投资人和董事会感到惊讶的是，即使有完美的执行，增长的加速也经常伴随着盈利能力和现金流的挤压。</em></p>
-<p><em>一旦产品看到一些明显的吸引力，投资人预计损失/现金流动应该收窄，对吧？相反，这是增加业务投入的完美时间，当然，这也会带来损失的再次加深。下图说明了这个问题：</em></p>
+<p>我惊讶于我看到的一些 SaaS 产品架构，它们明显没有计入毛利润，把 GM 计算在内是一个非常好的方式，能让你看到 LTV/CAC 之间的巨大杠杆。对 NetSuite 来说，我们不仅计算 LTV/COCA ，还计算每个部分的平方值（以了解是什么在驱动增长）并对它们进行敏感度分析（以了解未来可能有哪些驱动因素）。 GM 是很重要的一部分。</p>
 </blockquote>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb35.png" alt="img"></p>
-<blockquote>
-<p><em>注意看，图里的5个客户每月的模式最终会产生更亮眼的增长趋势，但你不得不经历另一个更深的低谷才能实现。重新进入这种类型的低谷，只是为了得到更积极的曲线，这个概念也是很多经理和投资人有争议的地方。</em></p>
-<p><em>当然，这是早期的一个特殊挑战，因为你需要向投资人解释为什么你需要额外的资金来进行下一轮加速。但这不只是创业公司的问题，在 NetSuite ，尽管作为一家上市公司，过去三年里每年我们的收入增长率都在提升，这意味着每个年度计划都涉及到追加获取潜在客户和销售能力的投资，这将在产生增量收入和现金流入之前，一段时间内的支出增加和现金流出。只要你加快了收入增长速度，围绕这种现象的管理和消息传递就是任何 SaaS 公司永恒的一部分。</em></p>
-</blockquote>
-<p><strong>为什么增长如此重要？</strong></p>
-<p>我们建议，一旦业务表明它可以成功，就应该积极投资，以增加增长率。</p>
-<p><strong>你可能会问：为什么？</strong></p>
-<p><strong>SaaS 通常是“赢家通吃”的游戏，因此，重要的是尽快攫取更多的市场份额，以确保你能成所在领域的赢家。</strong>只要你能讲好这个故事，最终这种增长将带来盈利，资本往往会用更高的估值来回报你的高增长。况且，在特定空间下，市场领导者还有一个溢价。</p>
-<p><strong>回到开头：趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？莫不是因对光明的渴望？</strong></p>
-<p><strong>本文编译自</strong>：</p>
-<p><a href="http://www.forentrepreneurs.com/saas-metrics-2/" target="_blank" rel="external">http://www.forentrepreneurs.com/saas-metrics-2/</a></p>
+<hr>
+<p><strong>更复杂的情况<em>**</em></strong></p>
+<p>在特定情况下，你希望由于收入的增加， ARPA 能在客户的生命周期内发生变化，那么简化的公司就不适用了， ZenDesk 就遇到这种情况，在客户生命周期内有非常可观的收入增长。</p>
+<p>下面这个图表显示，如果你有一个100名客户的群组，最开始每月支付100$给你，但每月会多支付5$，客户的月流失率是3%，会发生什么情况呢？</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb73_thumb1.png" alt="img"></p>
+<p>如你所见，最初收入扩张是大于客户流失带来的损失的，但随着时间的推移，流失率的影响越来越明显，最终降低了该群体的价值。</p>
+<p>我的合作伙伴 Stan Reiss 计算出了在这种复杂情况下的 LTV ，这是他想出来的计算方法：</p>
+<p><strong>变量：<em>**</em></strong></p>
+<p>a = 每月的初始 ARPA x GM %</p>
+<p>m = 每个账户 ARPA 的月增长 x GM %（注意，这里的月增长是以金额为单位的数字，不是百分比）</p>
+<p>c = 客户流失率 % （按月）</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb72_thumb1.png" alt="img"></p>
+<p>这个公式假设在客户的整个生命周期内，每个月的收入以大致固定的速率增长，这可能不是很多 SaaS 业务的真实情况，但目标是得到一个粗略的想法，而不是绝对的完美答案。</p>
+<p>而且还有其他的复杂因素，如：</p>
+<ul>
+<li>客户流失不遵循指数衰减曲线</li>
+<li>客户收入不遵循简单的线性扩张</li>
+</ul>
+<hr>
+<p><strong>LTV：CAC 比率<em>**</em></strong></p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb76_thumb1.png" alt="img"></p>
+<p>成功的 SaaS 业务的这个比率值应该高于3。（假设你用的是不包括毛利率的简单的 LTV 公式，并且你的毛利率是80%或更高。）</p>
+<p>Ron ，NetSuite ： 最重要的是跟踪这个指标，以确保你在推动改进，并且要看它是如何影响投入的。</p>
+<hr>
+<p><strong>收回 CAC 的月份<em>**</em></strong></p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb33.png" alt="img"></p>
+<p>为了完全准确，应该包含毛利率，公式如下：</p>
+<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb34.png" alt="img"></p>
+<p>在我们的指南里，收回CAC的月份应该小于12，假设我们用的是最简单的公式，毛利率是80%或高。</p>
+<p><strong>本文翻译自</strong>：</p>
+<p><a href="http://www.forentrepreneurs.com/saas-metrics-2-definitions-2/" target="_blank" rel="external">http://www.forentrepreneurs.com/saas-metrics-2-definitions-2/</a></p>
 <p><img src="https://dn-shimo-image.qbox.me/rwXLSJdJbasEuWqH/newwenmo.png!thumbnail" alt="img"></p>
 
       
@@ -433,6 +477,8 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
           
             <a href="/tags/SaaS/" rel="tag"># SaaS</a>
           
+            <a href="/tags/Meterics/" rel="tag"># Meterics</a>
+          
         </div>
       
 
@@ -440,8 +486,8 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/05/saas-metrics-definitions/" rel="next" title="用单位经济学解构 SaaS 业务指标">
-                <i class="fa fa-chevron-left"></i> 用单位经济学解构 SaaS 业务指标
+              <a href="/2017/01/07/saas-meterics-in-different-stage/" rel="next" title="SaaS业务在不同阶段的关键指标">
+                <i class="fa fa-chevron-left"></i> SaaS业务在不同阶段的关键指标
               </a>
             
           </div>
@@ -450,8 +496,8 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/01/07/saas-meterics-in-different-stage/" rel="prev" title="SaaS业务在不同阶段的关键指标">
-                SaaS业务在不同阶段的关键指标 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/01/07/how-saas-go-profits/" rel="prev" title="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？">
+                趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？ <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -547,7 +593,7 @@ SaaS 即软件即服务，它的目的是通过互联网为用户提供一种即
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
