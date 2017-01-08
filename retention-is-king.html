@@ -1,0 +1,858 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="SaaS,Operation," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="SaaS Notes" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="我们设想最常见的场景，应用或网站上线，这时候大家可能都会把注意力放在拉新和活跃上，可能头几个月我们的 KPI 就是达成多少拉新和活跃用户，公司对外的公关稿上也都会着重宣传下载量、用户数等指标 。
+我们之所以这样做，是人性的必然，因为我们都很懒，大多数人都会选最容易的路走。一开始做拉新和激活是相对容易的，而且这不就是我们追求的增长吗？何乐不为，况且做好留存需要考虑到产品与市场匹配的方方面面，相对更">
+<meta property="og:type" content="article">
+<meta property="og:title" content="5组数据，2个维度，告诉你为什么留存为王">
+<meta property="og:url" content="http://yoursite.com/retention-is-king.html">
+<meta property="og:site_name" content="SaaS Notes">
+<meta property="og:description" content="我们设想最常见的场景，应用或网站上线，这时候大家可能都会把注意力放在拉新和活跃上，可能头几个月我们的 KPI 就是达成多少拉新和活跃用户，公司对外的公关稿上也都会着重宣传下载量、用户数等指标 。
+我们之所以这样做，是人性的必然，因为我们都很懒，大多数人都会选最容易的路走。一开始做拉新和激活是相对容易的，而且这不就是我们追求的增长吗？何乐不为，况且做好留存需要考虑到产品与市场匹配的方方面面，相对更">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/x70T54tniiwlgOpt/%E7%95%99%E5%AD%98%E4%B8%BA%E7%8E%8B.png!thumbnail">
+<meta property="og:image" content="http://growthhacker.info/wp-content/uploads/2014/02/Growth-Hacking-Funnel.png">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/Ud49kQInySownKzy/%E7%95%99%E5%AD%981.png!thumbnail">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/830oDjmr6QwbwpAI/%E7%95%99%E5%AD%982.png!thumbnail">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/VsSzgOVA4gwOAfNM/%E7%95%99%E5%AD%983.png!thumbnail">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/mutavHc5Od4YLy22/%E7%95%99%E5%AD%984.png!thumbnail">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/ZfgFnURmgNYUA99y/%E7%95%99%E5%AD%985.png!thumbnail">
+<meta property="og:image" content="https://i1.wp.com/amplitude.com/blog/wp-content/uploads/2015/12/matrix.png?resize=625%252C505&ssl=1">
+<meta property="og:image" content="https://dn-shimo-image.qbox.me/rwXLSJdJbasEuWqH/newwenmo.png!thumbnail">
+<meta property="og:updated_time" content="2017-01-08T18:33:16.603Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="5组数据，2个维度，告诉你为什么留存为王">
+<meta name="twitter:description" content="我们设想最常见的场景，应用或网站上线，这时候大家可能都会把注意力放在拉新和活跃上，可能头几个月我们的 KPI 就是达成多少拉新和活跃用户，公司对外的公关稿上也都会着重宣传下载量、用户数等指标 。
+我们之所以这样做，是人性的必然，因为我们都很懒，大多数人都会选最容易的路走。一开始做拉新和激活是相对容易的，而且这不就是我们追求的增长吗？何乐不为，况且做好留存需要考虑到产品与市场匹配的方方面面，相对更">
+<meta name="twitter:image" content="https://dn-shimo-image.qbox.me/x70T54tniiwlgOpt/%E7%95%99%E5%AD%98%E4%B8%BA%E7%8E%8B.png!thumbnail">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/retention-is-king.html"/>
+
+
+
+
+
+  <title> 5组数据，2个维度，告诉你为什么留存为王 | SaaS Notes </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?d7055ab01021e0049c7e78433b9acbf4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">SaaS Notes</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">那些2B的人和事！</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-saaslinks">
+          <a href="/saaslinks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            SaaSLinks
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/retention-is-king.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Ink">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="http://p1.bpimg.com/567571/e9894261735f10aa.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="SaaS Notes">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="SaaS Notes" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                5组数据，2个维度，告诉你为什么留存为王
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T20:14:30+08:00">
+                2017-01-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+
+
+          
+          
+            <span id="/retention-is-king.html" class="leancloud_visitors" data-flag-title="5组数据，2个维度，告诉你为什么留存为王">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="https://dn-shimo-image.qbox.me/x70T54tniiwlgOpt/%E7%95%99%E5%AD%98%E4%B8%BA%E7%8E%8B.png!thumbnail" alt="img"></p>
+<p>我们设想最常见的场景，应用或网站上线，这时候大家可能都会把注意力放在拉新和活跃上，可能头几个月我们的 KPI 就是达成多少拉新和活跃用户，公司对外的公关稿上也都会着重宣传下载量、用户数等指标 。</p>
+<p>我们之所以这样做，是人性的必然，因为我们都很懒，大多数人都会选最容易的路走。一开始做拉新和激活是相对容易的，而且这不就是我们追求的增长吗？何乐不为，况且做好留存需要考虑到产品与市场匹配的方方面面，相对更难。</p>
+<p>但这样真的对吗？你尽可能通过各种方式获取用户、提高活跃，但一旦忽略留存，你做的所有事都会是无用功，A 口进， B 口出，如此高的流失，你会发现口碑没有了，拉新渠道用一个少一个。</p>
+<p>用户快速增长快速流失，根本不是可持续的增长方式，留存才是。如果你的产品能随时间推移保持较高的留存，那么这说明产品与市场是匹配的，这也是你无论如何都希望实现的。</p>
+<p><strong>没有留存，漏斗可能是“漏洞”</strong></p>
+<p>我们来看海盗模型，下面这张图是最能体现留存的重要性的。讲海盗模型的很多，但很少人强调留存的重要性。</p>
+<p><img src="http://growthhacker.info/wp-content/uploads/2014/02/Growth-Hacking-Funnel.png" alt="img"></p>
+<p>留存是转化漏斗里承上启下的关键，一头连着拉新和激活，把用户沉下来，另一头牵着转化和口碑，让真正沉下来的用户，来更好的转化和传播。所以我们说，留存才是一种持续增长的心态，只有留存做好了，漏斗才不会变“漏洞”。</p>
+<p><strong>留存为王</strong></p>
+<p>下面会用5组数据，来说明为什么我们应该把留存看的更重要。</p>
+<blockquote>
+<p><strong>10%的用户在下载应用的一周后仍继续使用，一个月后，这个数字只有2.3%</strong></p>
+</blockquote>
+<p><img src="https://dn-shimo-image.qbox.me/Ud49kQInySownKzy/%E7%95%99%E5%AD%981.png!thumbnail" alt="img"></p>
+<p>用户不仅会流失，而且流失很快。这意味着一个想要长期存活的应用，必须把留存的优先级提高。如果在用户的第一周内没能积极吸引用户并赢得忠诚，那么在接下来的30天内获得成功的机会会大大减少。</p>
+<blockquote>
+<p><strong>52%的应用会在三个月后失去至少一半的重度用户</strong></p>
+</blockquote>
+<p><img src="https://dn-shimo-image.qbox.me/830oDjmr6QwbwpAI/%E7%95%99%E5%AD%982.png!thumbnail" alt="img"></p>
+<p>即使有了稳定的用户基础，你也需要恰当的策略来保留它们。有效的留存策略是场马拉松，而不是冲刺。一开始吸引用户的点往往不是用户留下来的真正原因。为了解决这个问题，你的留存策略需要不断适应用户反馈和他们的发展需要和需求。或者更好的是，考虑主动出击而不是被动改变。</p>
+<blockquote>
+<p><strong>获取新用户的成本比留存现有用户的成本高5倍</strong></p>
+</blockquote>
+<p><img src="https://dn-shimo-image.qbox.me/VsSzgOVA4gwOAfNM/%E7%95%99%E5%AD%983.png!thumbnail" alt="img"></p>
+<p>从成本效益来看，留存的重要性不言自明。</p>
+<blockquote>
+<p><strong>老用户比新用户尝试新功能的可能性高50%，支出比新用户高31%</strong></p>
+</blockquote>
+<p><img src="https://dn-shimo-image.qbox.me/mutavHc5Od4YLy22/%E7%95%99%E5%AD%984.png!thumbnail" alt="img"></p>
+<p>你的现有用户是最有可能跟你的功能和产品产生互动的，此外，他们更有可能再次购买你的产品。因此，维护现有用户不仅成本效益更高，而且从长远看，现有用户的价值也更高。</p>
+<blockquote>
+<p><strong>Gartner 预测，你公司未来80%的收入将来自20%的现有用户</strong></p>
+</blockquote>
+<p><img src="https://dn-shimo-image.qbox.me/ZfgFnURmgNYUA99y/%E7%95%99%E5%AD%985.png!thumbnail" alt="img"></p>
+<p>这是二八定律的另一种体现。所以把80%的精力分配给留存现有用户，20%的精力用来获取新用户是明智的。从这个角度上说，获取新用户和留存老用户应该是协作关系，而非竞争。</p>
+<p>Facebook 也把留存放在很重要的位置：首先得做好留存，其次才是用户增长。在产品还没有找到产品、市场匹配点（Product / Market Fit）的时候，不能奢谈增长，这也符合我们要先做最小可行化产品的思维.</p>
+<p><strong>驱动产品增长的内核</strong></p>
+<p><strong>做留存无外乎两点，让留下的用户留下，把离开的用户唤回。</strong>但如果用户很少与你的产品发生互动，那么即使把他拉回来，用户也会离开，时间早晚而已。用户第一次安装应用，随后就把它忘了，随后你用邮件或消息推送把用户“唤醒”。哦，用户再次打开了，觉得你家应用很烦，就把它下载了。实际上这个流程中的问题是用户跟你没发生互动，也没参与感，这个时候你的应用对用户就是可有可无的。</p>
+<p>所以是什么在驱动产品增长？为了回答这个，我们引入“留存 x 参与矩阵”。在这个矩阵里，我们把产品分为四类：上瘾的、有用的、一次性的、流行的。</p>
+<p><img src="https://i1.wp.com/amplitude.com/blog/wp-content/uploads/2015/12/matrix.png?resize=625%252C505&amp;ssl=1" alt="img"></p>
+<p>高留存高用户参与的我们称之为让用户上瘾的应用，与之相对的是一次性应用，你从不会真正与她产生互动，打开手机，有很多应用你从来没用过，不知道什么原因就安装了，但从来没体现出价值。类似天气或者日历类应用，就是这个矩阵里的“效用应用”，你经常用，但是不会参与，因为它勾不起你的兴趣。突然很火的一个小游戏或者脸萌这类应用，我们叫它“流行应用”，你对它只会是三分钟热度。</p>
+<p><strong>所以，我们应尽力最大化留存和用户参与，由此驱动产品的长期增长。</strong></p>
+<p>从一个比较长的维度来讲，创业是场马拉松，如果你的公司不是只想活一两年的话。过去的一段时间，我们听了很多风口上的猪，兵贵神速，但我想我们没有真正理解这些话的意思，没装上翅膀猪会摔死，没备足粮草，兵会饿死。<strong>我们谈留存的意义在于，在准备起飞、花预算砸市场之前，留存会是验证 Product / Market Fit 很关键的指标。首先做好留存，再考虑增长。</strong></p>
+<p>参考内容：</p>
+<p><a href="https://www.apptweak.com/learn/5-statistics-that-show-retention-is-the-new-growth-hacking" target="_blank" rel="external">https://www.apptweak.com/learn/5-statistics-that-show-retention-is-the-new-growth-hacking</a></p>
+<p><a href="http://andrewchen.co/retention-is-king/" target="_blank" rel="external">http://andrewchen.co/retention-is-king/</a></p>
+<p><img src="https://dn-shimo-image.qbox.me/rwXLSJdJbasEuWqH/newwenmo.png!thumbnail" alt="img"></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/SaaS/" rel="tag"># SaaS</a>
+          
+            <a href="/tags/Operation/" rel="tag"># Operation</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/lean-operation.html" rel="prev" title="精细化运营：是技术的追求，还是产品的不挽留？">
+                精细化运营：是技术的追求，还是产品的不挽留？ <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://p1.bpimg.com/567571/e9894261735f10aa.png"
+               alt="Ink" />
+          <p class="site-author-name" itemprop="name">Ink</p>
+          <p class="site-description motion-element" itemprop="description">Let's talk about SaaS ！</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+<div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ink</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" rel="nofollow" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" rel="nofollow" target="_blank" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="></script>
+      <!-- UY END -->
+  
+
+
+
+
+  
+  
+
+  
+
+  //
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("KN8qj8O3fe4Aa6OgNbyoxUHv-gzGzoHsz", "yQQpLVkcChL6wlof5UMK9fjj");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+
+</body>
+</html>
