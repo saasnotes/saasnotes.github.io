@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/saaslinks/index.html</loc>
+    
+    <lastmod>2017-01-08T03:07:58.903Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2017-01-08T02:14:56.765Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com//404.html</loc>
+    
+    <lastmod>2017-01-08T02:09:21.751Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/01/07/next-shift-of-saas/</loc>
     
     <lastmod>2017-01-07T12:52:07.705Z</lastmod>
