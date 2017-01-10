@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="saas," />
+  <meta name="keywords" content="产品," />
 
 
 
@@ -86,54 +86,42 @@
 
 
 
-<meta name="description" content="SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。
+<meta name="description" content="10年百度推出的开放平台不愠不火到现在仍是个尴尬的见面，而当初不少大佬预言百度的开放平台会引发一场核聚变。
 
-计算 SaaS 业务的 LTV 和 CAC**
-这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。
+七年前预言的核聚变没有出现，势能更强的微信小程序呢？毕竟，它承载了张小龙这个克制者的野望。
 
-CAC - 获客成本（Cost to Acquire a Customer）**
-我们对 CAC 的定义如下：
 
-在业务早期，雇佣">
+（图为小程序上线时，张小龙的朋友圈截图）
+早期的坊间传闻，08年淘宝与百度打站战，饭局上，有人无意说了一句：搜索是马总的隐痛啊。某阿里员工摇头说：不是。接着抿一口酒，咬牙说：是剧痛。
+时过境迁">
 <meta property="og:type" content="article">
-<meta property="og:title" content="用单位经济学解构 SaaS 业务指标">
-<meta property="og:url" content="http://saasnotes.com/saas-metrics-definitions.html">
+<meta property="og:title" content="小程序连接谁，又为谁赋能？巨头的博弈与张小龙的野望">
+<meta property="og:url" content="http://saasnotes.com/talk-about-weixin-xiaochengxu.html">
 <meta property="og:site_name" content="SaaS Notes">
-<meta property="og:description" content="SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。
+<meta property="og:description" content="10年百度推出的开放平台不愠不火到现在仍是个尴尬的见面，而当初不少大佬预言百度的开放平台会引发一场核聚变。
 
-计算 SaaS 业务的 LTV 和 CAC**
-这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。
+七年前预言的核聚变没有出现，势能更强的微信小程序呢？毕竟，它承载了张小龙这个克制者的野望。
 
-CAC - 获客成本（Cost to Acquire a Customer）**
-我们对 CAC 的定义如下：
 
-在业务早期，雇佣">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb74_thumb1.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb69_thumb1.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb66_thumb1.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image9.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image_thumb8.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c53c2ced8.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c5673aa0a.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb73_thumb1.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb72_thumb1.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb76_thumb1.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb33.png">
-<meta property="og:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb34.png">
-<meta property="og:image" content="https://dn-shimo-image.qbox.me/rwXLSJdJbasEuWqH/newwenmo.png!thumbnail">
-<meta property="og:updated_time" content="2017-01-08T20:32:05.670Z">
+（图为小程序上线时，张小龙的朋友圈截图）
+早期的坊间传闻，08年淘宝与百度打站战，饭局上，有人无意说了一句：搜索是马总的隐痛啊。某阿里员工摇头说：不是。接着抿一口酒，咬牙说：是剧痛。
+时过境迁">
+<meta property="og:image" content="http://p1.bpimg.com/567571/41aadc6e5148b78a.jpg">
+<meta property="og:image" content="http://p1.bpimg.com/567571/78a7e87fc796d36e.jpg">
+<meta property="og:image" content="http://p1.bpimg.com/567571/a2e6cdf7fdf117c6.jpg">
+<meta property="og:image" content="http://p1.bpimg.com/567571/ee1f992983644e24.png">
+<meta property="og:updated_time" content="2017-01-10T06:26:45.604Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="用单位经济学解构 SaaS 业务指标">
-<meta name="twitter:description" content="SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。
+<meta name="twitter:title" content="小程序连接谁，又为谁赋能？巨头的博弈与张小龙的野望">
+<meta name="twitter:description" content="10年百度推出的开放平台不愠不火到现在仍是个尴尬的见面，而当初不少大佬预言百度的开放平台会引发一场核聚变。
 
-计算 SaaS 业务的 LTV 和 CAC**
-这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。
+七年前预言的核聚变没有出现，势能更强的微信小程序呢？毕竟，它承载了张小龙这个克制者的野望。
 
-CAC - 获客成本（Cost to Acquire a Customer）**
-我们对 CAC 的定义如下：
 
-在业务早期，雇佣">
-<meta name="twitter:image" content="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb74_thumb1.png">
+（图为小程序上线时，张小龙的朋友圈截图）
+早期的坊间传闻，08年淘宝与百度打站战，饭局上，有人无意说了一句：搜索是马总的隐痛啊。某阿里员工摇头说：不是。接着抿一口酒，咬牙说：是剧痛。
+时过境迁">
+<meta name="twitter:image" content="http://p1.bpimg.com/567571/41aadc6e5148b78a.jpg">
 
 
 
@@ -161,13 +149,13 @@ CAC - 获客成本（Cost to Acquire a Customer）**
 
 
 
-  <link rel="canonical" href="http://saasnotes.com/saas-metrics-definitions.html"/>
+  <link rel="canonical" href="http://saasnotes.com/talk-about-weixin-xiaochengxu.html"/>
 
 
 
 
 
-  <title> 用单位经济学解构 SaaS 业务指标 | SaaS Notes </title>
+  <title> 小程序连接谁，又为谁赋能？巨头的博弈与张小龙的野望 | SaaS Notes </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -309,7 +297,7 @@ CAC - 获客成本（Cost to Acquire a Customer）**
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://saasnotes.com/saas-metrics-definitions.html">
+  <link itemprop="mainEntityOfPage" href="http://saasnotes.com/talk-about-weixin-xiaochengxu.html">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Ink">
@@ -333,7 +321,7 @@ CAC - 获客成本（Cost to Acquire a Customer）**
             
             
               
-                用单位经济学解构 SaaS 业务指标
+                小程序连接谁，又为谁赋能？巨头的博弈与张小龙的野望
               
             
           </h1>
@@ -348,8 +336,8 @@ CAC - 获客成本（Cost to Acquire a Customer）**
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T20:35:41+08:00">
-                2017-01-07
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-10T14:23:35+08:00">
+                2017-01-10
               </time>
             
 
@@ -370,7 +358,7 @@ CAC - 获客成本（Cost to Acquire a Customer）**
 
           
           
-            <span id="/saas-metrics-definitions.html" class="leancloud_visitors" data-flag-title="用单位经济学解构 SaaS 业务指标">
+            <span id="/talk-about-weixin-xiaochengxu.html" class="leancloud_visitors" data-flag-title="小程序连接谁，又为谁赋能？巨头的博弈与张小龙的野望">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -397,72 +385,39 @@ CAC - 获客成本（Cost to Acquire a Customer）**
       
 
       
-        <blockquote>
-<p>SaaS 的美妙之处之一就在于盈利能力的可预测性，而单位经济学就是用来分析 SaaS 业务长期盈利能力的一种非常强大的方法。</p>
-</blockquote>
-<p><strong>计算 SaaS 业务的 LTV 和 CAC<em>**</em></strong></p>
-<p>这篇文章会提供如何计算 SaaS 业务几个重要指标的公式，帮助我也帮助你更好地理解业务。</p>
-<hr>
-<p><strong>CAC - 获客成本（Cost to Acquire a Customer）<em>**</em></strong></p>
-<p>我们对 CAC 的定义如下：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb74_thumb1.png" alt="img"></p>
-<p>在业务早期，雇佣员工的成本是比较昂贵的，人力成本还不能被获客数量摊薄，所以 CAC 会比较高。这时候需要对销售和营销费用做一些简单的调整，比如部分岗位雇佣兼职员工或减少早期的营销费用，这样就能让 CAC 对未来规模有个很好的展望。</p>
-<hr>
-<p><strong>客户生命周期（Customer Lifetime）<em>**</em></strong></p>
-<p>如果你从100个客户群组开始，每月有一个固定的流失率，那么你会得到指数式衰减，如下图所示（图里的流失率是3%）：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb69_thumb1.png" alt="img"></p>
-<p>在数学上，可以简化为下面的公司来计算平均客户生命周期：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb66_thumb1.png" alt="img"></p>
-<p>如果客户流失率是每月几个百分点，或每年几个百分点，那么相应计算得到的客户生命周期的单位就是月或年，我们来举例说明：</p>
-<p><em>1.如果月流失率是3%，那么客户生命周期就是1/0.03，也就是33个月。</em></p>
-<p><em>2.如果每年的流失率是20%，那么客户生命周期就是1/0.2，即5年。</em></p>
-<hr>
-<p><strong>客户生命周期价值（Lifetime Value of Customer）<em>**</em></strong></p>
-<p>在所有客户有大致相同的 <strong>ARPA（帐户的平均每月经常性收入-Average monthly recurring Revenue per Account）</strong> 的情况下，以及在客户的整个生命周期中没有预期的扩大收入，可以用下面的公式计算：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image9.png" alt="img"></p>
-<p>也可以写成：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/image_thumb8.png" alt="img"></p>
-<p>这里要强调的是，如果 ARPA 是按月的，流失率也应该是按月的。</p>
-<p>但是，如果你的客户群中 ARPA 差异很大的情况下，公司没有考虑高价值客户跟低价值客户之间的差异，所以准确点的公式是：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c53c2ced8.png" alt="img"></p>
-<p>为了得到更准确的 LTV ，还要把毛利率算进去，这时候的计算公司就变为：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2016/10/img_5817c5673aa0a.png" alt="img"></p>
-<p>NetSuite 的 Ron Gill 说过这么一句话：</p>
+        <p><img src="http://p1.bpimg.com/567571/41aadc6e5148b78a.jpg" alt="张小龙"></p>
+<p>10年百度推出的开放平台不愠不火到现在仍是个尴尬的见面，而当初不少大佬预言百度的开放平台会引发一场核聚变。</p>
 <blockquote>
-<p>我惊讶于我看到的一些 SaaS 产品架构，它们明显没有计入毛利润，把 GM 计算在内是一个非常好的方式，能让你看到 LTV/CAC 之间的巨大杠杆。对 NetSuite 来说，我们不仅计算 LTV/COCA ，还计算每个部分的平方值（以了解是什么在驱动增长）并对它们进行敏感度分析（以了解未来可能有哪些驱动因素）。 GM 是很重要的一部分。</p>
+<p><strong>七年前预言的核聚变没有出现，势能更强的微信小程序呢？毕竟，它承载了张小龙这个克制者的野望。</strong></p>
 </blockquote>
-<hr>
-<p><strong>更复杂的情况<em>**</em></strong></p>
-<p>在特定情况下，你希望由于收入的增加， ARPA 能在客户的生命周期内发生变化，那么简化的公司就不适用了， ZenDesk 就遇到这种情况，在客户生命周期内有非常可观的收入增长。</p>
-<p>下面这个图表显示，如果你有一个100名客户的群组，最开始每月支付100$给你，但每月会多支付5$，客户的月流失率是3%，会发生什么情况呢？</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb73_thumb1.png" alt="img"></p>
-<p>如你所见，最初收入扩张是大于客户流失带来的损失的，但随着时间的推移，流失率的影响越来越明显，最终降低了该群体的价值。</p>
-<p>我的合作伙伴 Stan Reiss 计算出了在这种复杂情况下的 LTV ，这是他想出来的计算方法：</p>
-<p><strong>变量：<em>**</em></strong></p>
-<p>a = 每月的初始 ARPA x GM %</p>
-<p>m = 每个账户 ARPA 的月增长 x GM %（注意，这里的月增长是以金额为单位的数字，不是百分比）</p>
-<p>c = 客户流失率 % （按月）</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb72_thumb1.png" alt="img"></p>
-<p>这个公式假设在客户的整个生命周期内，每个月的收入以大致固定的速率增长，这可能不是很多 SaaS 业务的真实情况，但目标是得到一个粗略的想法，而不是绝对的完美答案。</p>
-<p>而且还有其他的复杂因素，如：</p>
-<ul>
-<li>客户流失不遵循指数衰减曲线</li>
-<li>客户收入不遵循简单的线性扩张</li>
-</ul>
-<hr>
-<p><strong>LTV：CAC 比率<em>**</em></strong></p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb76_thumb1.png" alt="img"></p>
-<p>成功的 SaaS 业务的这个比率值应该高于3。（假设你用的是不包括毛利率的简单的 LTV 公式，并且你的毛利率是80%或更高。）</p>
-<p>Ron ，NetSuite ： 最重要的是跟踪这个指标，以确保你在推动改进，并且要看它是如何影响投入的。</p>
-<hr>
-<p><strong>收回 CAC 的月份<em>**</em></strong></p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb33.png" alt="img"></p>
-<p>为了完全准确，应该包含毛利率，公式如下：</p>
-<p><img src="http://dskok.wpengine.netdna-cdn.com/wp-content/uploads/2012/12/image_thumb34.png" alt="img"></p>
-<p>在我们的指南里，收回CAC的月份应该小于12，假设我们用的是最简单的公式，毛利率是80%或高。</p>
-<p><strong>本文翻译自</strong>：</p>
-<p><a href="http://www.forentrepreneurs.com/saas-metrics-2-definitions-2/" target="_blank" rel="external">http://www.forentrepreneurs.com/saas-metrics-2-definitions-2/</a></p>
-<p><img src="https://dn-shimo-image.qbox.me/rwXLSJdJbasEuWqH/newwenmo.png!thumbnail" alt="img"></p>
+<p><img src="http://p1.bpimg.com/567571/78a7e87fc796d36e.jpg" alt="小程序"></p>
+<p>（图为小程序上线时，张小龙的朋友圈截图）</p>
+<p>早期的坊间传闻，08年淘宝与百度打站战，饭局上，有人无意说了一句：搜索是马总的隐痛啊。某阿里员工摇头说：不是。接着抿一口酒，咬牙说：是剧痛。</p>
+<p>时过境迁，8年过去，巨头的战役此起彼伏，令阿里剧痛的对象俨然变成了腾讯的微信业务。</p>
+<p>11年底微信横空出世，马总陆续祭出来往、摆出钉钉，却仍无法撼动微信的地位。两巨头，一家握有微信这张超级王牌和日进斗金的游戏业务，另一家握有支付宝、蚂蚁金融以及代表未来的阿里云业务，从局面上看，“马老板”占优。</p>
+<p><strong>但真的占优吗？</strong></p>
+<p>前两天支付宝的年度账单着实很火，刷爆了朋友圈。但火归火，也是火在腾讯微信的朋友圈里，不是支付宝的朋友圈；再者，要这时候微信祭出微信用户年度支付频次，马老板会更头疼。生活中小额支付场景，简单到像街边吃饭，买菜，大叔大妈用微信的必然多，长此以往，支付宝的份额一定会被大口大口蚕食。</p>
+<p>但阿里也不必慌，基于淘宝天猫的消费记录，以及花呗，芝麻信用等建立起来的信用体系，这是短期内，腾讯拼不过阿里的地方，因为腾讯没自己的电商，基于社交的属性，也必然会让大部分用户的大额消费不会放在微信上。</p>
+<p>再说，还有阿里云以及基于电商积累的开放计算能力，马老板想做的要做的，早说过：要做大数据时代的水电煤，云计算是，开放的大数据处理能力也是。你想说，腾讯也在做，但技术能力相差不大，做了10年跟做了三五年能一样吗？一家以服务C端用户见长，一家以搞定企业见长，一样去做企业服务的生意，能一样吗？</p>
+<p>我们能看到从去年起腾讯在企业服务和云上的发力，包括从传统的企业服务厂商 Oracle 、华为等去挖很多人过来，这是不是也可以看做是一种跟随策略？用腾讯做C端产品的心态来打磨 IAAS 可以，但真正怎么玩，还得交学费。</p>
+<p>阿里没有社交基因，却拼了老命去做社交，花大价钱也要做，把支付宝搞的“婊”也要做。有心人其实会发现，当微信从连接人，逐渐变为连接一切的时候，支付宝还在连接交易，能不急吗？但工具到底是工具，频次低，就得认命。做不了，能搞好企业服务， 云上去保3争2，想象力也是大的惊人。</p>
+<p>所有商业模式的“流量之争”（传统行业的客流、互联网产品里的用户流量），本质都是抢夺用户时间，握在手里的用户时间意味着源源不断的流量，意味着更多的机会。当线上流量的竞争越来越难的时候，微信用小程序来试水线下，可以说这不能说是试水，得叫发力，微信这么牛逼，又发了狠，搁谁也都害怕。</p>
+<p>小程序这回的核心目的，其实官方的运营规范里写的很清楚（第一段、第二段）：</p>
+<blockquote>
+<p>微信最核心的价值，就是连接 —— 提供一对一、一对多和多对多的连接方式，从而实现人与人、人与智能终端、人与社交化娱乐、人与硬件设备的连接，同时连接服务、资讯、商业。</p>
+<p>微信团队一直致力于将微信打造成一个强大的、全方位的服务工具。在此基础上，我们推出了微信小程序这个产品，提供给微信小程序的开发者在微信内搭建和实现特定服务、功能的平台。通过全面开放的能力，我们将更多连接的可能给予企业和服务提供者，并为微信小程序提供基础的接入能力、运营环境和规则体系，进而帮助更多的企业和服务提供者建立自己的品牌，将商业机会带给整个微信产业链。</p>
+</blockquote>
+<p>微信的早期，实现了连接人与人，公众号连接了人与资讯，这两块做的都没得说，但当试图通过服务号去连接人与服务时，其实并不是很成功。<strong>小程序一定是有野心的，这一次可能承载了微信同时去连接商业与服务的使命。</strong></p>
+<p><strong>商业本质上还是服务，小程序要做的是通过它的连接力，更多的为线下的商业场景赋能。</strong>就像张小龙之前所讲的那样：你去买票，扫一扫二维码就能实现，节约了多少时间成本，买票的用户体验提升了多少？（当然用购票 App 扫码也能实现，但它重不是么？而今后只要有微信的人都全都能搞定。）</p>
+<p><img src="http://p1.bpimg.com/567571/a2e6cdf7fdf117c6.jpg" alt="小程序"></p>
+<p>在前面，我们说了，淘宝、支付宝用来连接交易，这下可以预见，将可能有更多的线下交易场景被微信和小程序占据，顺带着，还杀伤一大票低频应用，嗯，这是降维打击。</p>
+<p>再说，微信的设计里，到底还是一个闭环。只有进来的流量，而出去的流量入口被紧紧的掐死。从15年就在说的开放、共享和连接一切，是不是也可以这么理解：把我的平台开放给你共享，你在我的平台上做一切能做的，这样就把内容、商业、服务，线上、线下的流量都连接到微信了，你在我的生态里为你也为我拓展更多的应用场景和想象力。</p>
+<blockquote>
+<p>维基百科里对黑洞的解释是：黑洞（英文：black hole）是根据广义相对论所推论、在宇宙空间中存在的一种质量相当大的天体和星体（并非是一般生活认知的“洞”概念）。黑洞的质量是如此之大，它产生的引力场是如此之强，以致于大量可测物质和辐射都无法逃逸，就连传播速度极快的光子也逃逸不出来。</p>
+</blockquote>
+<p><strong>七年前大佬对预言百度的核聚变没有出现，势能更强的微信小程序呢？毕竟，它承载了张小龙这个克制者的野望。</strong></p>
+<p><strong>又或者，下一届的社交，能否强到从“黑洞逃逸”？</strong></p>
+<p><img src="http://p1.bpimg.com/567571/ee1f992983644e24.png" alt="关注"></p>
 
       
     </div>
@@ -486,7 +441,7 @@ CAC - 获客成本（Cost to Acquire a Customer）**
       
         <div class="post-tags">
           
-            <a href="/tags/saas/" rel="tag"># saas</a>
+            <a href="/tags/产品/" rel="tag"># 产品</a>
           
         </div>
       
@@ -495,8 +450,8 @@ CAC - 获客成本（Cost to Acquire a Customer）**
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/saas-meterics-in-different-stage.html" rel="next" title="SaaS 业务在不同阶段的关键指标">
-                <i class="fa fa-chevron-left"></i> SaaS 业务在不同阶段的关键指标
+              <a href="/next-shift-of-saas.html" rel="next" title="SaaS抢了谁的肉，又革了谁的命？">
+                <i class="fa fa-chevron-left"></i> SaaS抢了谁的肉，又革了谁的命？
               </a>
             
           </div>
@@ -504,10 +459,6 @@ CAC - 获客成本（Cost to Acquire a Customer）**
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/how-saas-go-profits.html" rel="prev" title="趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？">
-                趋之若鹜，是 SaaS 之美还是资本的“恶趣味”？ <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
